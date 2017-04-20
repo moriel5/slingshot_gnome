@@ -41,7 +41,7 @@ const LauncherButton = new Lang.Class({
         /*this.buttonIcon = new St.Icon({ gicon: null, style_class: 'system-status-icon' });
         this.buttonIcon.icon_name='start-here';
         this._box.add_actor(this.buttonIcon);*/
-        this.buttonLabel = new St.Label({ text: _("Applications"),
+        this.buttonLabel = new St.Label({ icon: _("start-here-symbolic"),
                                               y_expand: true,
                                               y_align: Clutter.ActorAlign.CENTER });
 
